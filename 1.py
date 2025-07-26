@@ -8,7 +8,7 @@ import uuid
 
 app = Flask(__name__)
 user_states = {}
-BOT_TOKEN = "توکن_واقعی_خودت_اینجا"
+BOT_TOKEN = "7968702741:AAHNrYsxZ-KZs6zBfIMUetifs5ipVaz8jdw"
 
 @app.route("/")
 def ping():
