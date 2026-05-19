@@ -67,7 +67,7 @@ def handle_document(update: Update, context: CallbackContext):
     update.message.reply_text("✅ فایل ZIP دریافت شد. در حال ارسال برای تبدیل...")
 
     with open(zip_path, "rb") as f:
-        response = requests.post("https://novinpay.io/lottie/", files={"zipfile": f})
+        response = requests.post("https://", files={"zipfile": f})
 
     if response.status_code != 200 or "application/zip" not in response.headers.get("Content-Type", ""):
         update.message.reply_text("❌ خطا در تبدیل فایل‌ها. لطفا دوباره تلاش کنید.")
