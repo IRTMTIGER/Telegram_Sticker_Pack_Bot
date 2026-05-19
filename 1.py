@@ -24,7 +24,7 @@ import requests
 from telegram import Update, InputFile
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
-BOT_TOKEN = "7506306835:AAFro1xS-iq3UKKbBZHefeSdo1DxcNKJAUg"
+BOT_TOKEN = ""
 bot_username = "MahdiStickerPack_bot"
 
 user_states = {}
